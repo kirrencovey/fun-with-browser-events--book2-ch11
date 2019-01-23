@@ -1,0 +1,32 @@
+.blue {
+    color: blue;
+}
+
+.large {
+    font-size: 5em;
+}
+
+.bordered {
+    border: 1px dashed hotpink;
+}
+
+.rounded {
+    border-radius: 25%;
+}
+
+#new-articles {
+    display: flex;
+}
+
+#first,
+#second {
+    flex-basis: 50%;
+}
+
+#first {
+    border: 1px solid orange;
+}
+
+#second {
+    border: 1px solid green;
+}
